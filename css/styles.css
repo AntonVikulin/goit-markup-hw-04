@@ -218,7 +218,11 @@ h1 {
   display: flex;
   width: 70px;
   height: 70px;
-  margin: 25px auto;
+  padding: 25px auto;
+  width: 100%;
+
+  background: #f5f4fa;
+  border-radius: 4px;
 }
 
 .instruments-h3 {
@@ -380,7 +384,7 @@ footer {
 
 footer > .container {
   display: flex;
-  text-align: baseline;
+  align-items: baseline;
 }
 
 address {
